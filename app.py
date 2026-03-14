@@ -11,6 +11,19 @@ import streamlit as st
 from nltk.corpus import stopwords
 
 st.set_page_config(page_title="AI Research Topic Assistant", layout="centered")
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 #NLP resources  
 
@@ -132,21 +145,28 @@ def load_pipeline(model_name):
 
 available_models = load_models()
 
-#sidebar
+#choose-bar
 
-with st.sidebar:
+st.divider()
 
-    st.title("Model Settings")
+col1, col2, col3 = st.columns([2,1,1])
 
+with col1:
     selected_model = st.selectbox(
-        "Choose Model",
+        "Model",
         available_models
     )
 
+with col2:
     pipeline = load_pipeline(selected_model)
+    st.write("Algorithm")
+    st.code(pipeline["algorithm"])
 
-    st.info(f"Algorithm: {pipeline['algorithm']}")
-    st.caption(f"Embedding: {pipeline['embedding_name']}")
+with col3:
+    st.write("Embedding")
+    st.code(pipeline["embedding_name"])
+
+st.divider()
 
 #ui
 

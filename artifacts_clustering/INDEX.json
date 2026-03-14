@@ -1,0 +1,102 @@
+[
+  {
+    "embedding": "BoW_SVD50",
+    "algo": "KMeans",
+    "file": "artifacts_clustering/BoW_SVD50__KMeans.joblib"
+  },
+  {
+    "embedding": "BoW_SVD50",
+    "algo": "AHC",
+    "file": "artifacts_clustering/BoW_SVD50__AHC.joblib"
+  },
+  {
+    "embedding": "BoW_SVD50",
+    "algo": "GMM",
+    "file": "artifacts_clustering/BoW_SVD50__GMM.joblib"
+  },
+  {
+    "embedding": "BoW_SVD50",
+    "algo": "DBSCAN",
+    "file": "artifacts_clustering/BoW_SVD50__DBSCAN.joblib"
+  },
+  {
+    "embedding": "BoW_SVD50",
+    "algo": "MeanShift",
+    "file": "artifacts_clustering/BoW_SVD50__MeanShift.joblib"
+  },
+  {
+    "embedding": "TFIDF_SVD50",
+    "algo": "KMeans",
+    "file": "artifacts_clustering/TFIDF_SVD50__KMeans.joblib"
+  },
+  {
+    "embedding": "TFIDF_SVD50",
+    "algo": "AHC",
+    "file": "artifacts_clustering/TFIDF_SVD50__AHC.joblib"
+  },
+  {
+    "embedding": "TFIDF_SVD50",
+    "algo": "GMM",
+    "file": "artifacts_clustering/TFIDF_SVD50__GMM.joblib"
+  },
+  {
+    "embedding": "TFIDF_SVD50",
+    "algo": "DBSCAN",
+    "file": "artifacts_clustering/TFIDF_SVD50__DBSCAN.joblib"
+  },
+  {
+    "embedding": "TFIDF_SVD50",
+    "algo": "MeanShift",
+    "file": "artifacts_clustering/TFIDF_SVD50__MeanShift.joblib"
+  },
+  {
+    "embedding": "W2V_200",
+    "algo": "KMeans",
+    "file": "artifacts_clustering/W2V_200__KMeans.joblib"
+  },
+  {
+    "embedding": "W2V_200",
+    "algo": "AHC",
+    "file": "artifacts_clustering/W2V_200__AHC.joblib"
+  },
+  {
+    "embedding": "W2V_200",
+    "algo": "GMM",
+    "file": "artifacts_clustering/W2V_200__GMM.joblib"
+  },
+  {
+    "embedding": "W2V_200",
+    "algo": "DBSCAN",
+    "file": "artifacts_clustering/W2V_200__DBSCAN.joblib"
+  },
+  {
+    "embedding": "W2V_200",
+    "algo": "MeanShift",
+    "file": "artifacts_clustering/W2V_200__MeanShift.joblib"
+  },
+  {
+    "embedding": "E5_768",
+    "algo": "KMeans",
+    "file": "artifacts_clustering/E5_768__KMeans.joblib"
+  },
+  {
+    "embedding": "E5_768",
+    "algo": "AHC",
+    "file": "artifacts_clustering/E5_768__AHC.joblib"
+  },
+  {
+    "embedding": "E5_768",
+    "algo": "GMM",
+    "file": "artifacts_clustering/E5_768__GMM.joblib"
+  },
+  {
+    "embedding": "E5_768",
+    "algo": "DBSCAN",
+    "file": "artifacts_clustering/E5_768__DBSCAN.joblib"
+  },
+  {
+    "embedding": "E5_768",
+    "algo": "MeanShift",
+    "file": "artifacts_clustering/E5_768__MeanShift.joblib"
+  }
+]

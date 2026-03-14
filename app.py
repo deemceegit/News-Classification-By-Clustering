@@ -10,7 +10,7 @@ import pandas as pd
 import streamlit as st
 from nltk.corpus import stopwords
 
-st.set_page_config(page_title="AI Research Topic Assistant", layout="centered")
+st.set_page_config(page_title="News Topic Assistant", layout="centered")
 st.markdown(
     """
     <style>
@@ -170,8 +170,8 @@ st.divider()
 
 #ui
 
-st.title("AI Research Topic Assistant")
-st.caption("Paste an arXiv abstract and the system will predict its research topic.")
+st.title("News Topic Assistant")
+st.caption("Paste an abstract and the system will predict its topic.")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
